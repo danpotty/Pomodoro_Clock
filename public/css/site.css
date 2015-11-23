@@ -1,5 +1,6 @@
 body {
   background-image: url(http://www.pretzellogic.org/wp-content/upload/clocks-3d.jpg);
+  background-size: cover;
 }
 
 button {
