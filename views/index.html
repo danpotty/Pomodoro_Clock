@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>coder-camps-js</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap_theme.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/site.css">
+</head>
+<body>
+	<br>
+	<div class="well container">
+		<h1 style="text-align:center"><strong>Pomodoro Clock</strong></h1>
+	</div>
+
+	<div style="text-align:center">
+		<div id="status" style="color:rgb(230, 166, 57);"></div>
+		<button onclick="countDown()">Start</button>
+		<button onclick="stopTimer()">Stop Timer</button><br>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<div id="numSecsTimer" style="color:rgb(230, 166, 57);"></div>
+		<button onclick='addOne()'>Increase</button>
+		<button onclick='subOne()'>Decrease</button>
+		<br><br>
+
+		<div id="numSecsBreak" style="color:rgb(230, 166, 57);"></div>
+		<button onclick='addOneBreak()'>Increase</button>
+		<button onclick='subOneBreak()'>Decrease</button>
+	</div>
+
+	<script src="/javascript/app.js"></script>
+</body>
+</html>
